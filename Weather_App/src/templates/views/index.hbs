@@ -1,0 +1,40 @@
+
+<html>
+  <head>
+    <title>Home - Umbrella or Slipper?</title>
+    <link rel="stylesheet" href="/css/index.css">
+  </head>
+
+  <body>
+  {{>header}}
+  <div class="main-content">
+
+    <div class="search-content">
+        <form>
+        <label class="search-label">city:</label>
+        <input class="search-input" placeholder="Write here the city" type="text">
+        <button class="search-btn" type="submit">Search!</button>
+      </form>
+    </div>
+
+   
+    <div class="dataWeather">
+      <h2>In,</h2>
+      <div class="city data"></div>
+      <div class="region data"></div>
+      <div class="country data"></div>
+      <h2> The weather is </h2>
+      <div class="weather data"></div>
+      <h2>and the temperature is</h2>
+      <div class="temperature data"></div>
+
+    </div>
+
+
+  </div>
+  {{>footer}}
+
+  <script src="/js/app.js"></script>
+  </body>
+
+</html>

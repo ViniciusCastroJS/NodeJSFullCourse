@@ -1,0 +1,13 @@
+footer{
+  border-top: 2px solid #D5D4AA;
+  display: flex;
+  justify-content: center;
+  height: 60px;
+}
+
+footer h5{
+  font-size: 15px;
+  font-weight: normal;
+  color: #D5D4AA;
+  font-family: "He";
+}

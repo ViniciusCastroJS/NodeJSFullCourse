@@ -1,0 +1,3 @@
+Sistema de Modulos:
+
+A diversas funções para utilizar que o Node mesmo provem como o console e Fs

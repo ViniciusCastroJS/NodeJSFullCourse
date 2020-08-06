@@ -1,0 +1,10 @@
+Adicione uma mensagem em notes.txt com appendFileSync
+
+Defina e use um função de outro arquivo utilizando module.exports.
+
+Use a biblioteca Chalk e mostre na tela o texto sucesso em verde.
+
+Use a Weather Stack API e a Mapbox, para receber a temperatura da cidade enviando a cidade pela linha de comando.
+
+Crie handlebars utlizando o hbs e crie um servidor utilizando o express.
+
