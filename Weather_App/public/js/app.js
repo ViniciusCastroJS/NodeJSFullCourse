@@ -3,6 +3,7 @@ let form = document.querySelector('form');
 let select = (e) => document.querySelector(e);
 let dataWeather = select('div.dataWeather');
 
+
 form.addEventListener('submit',
   e => {
     e.preventDefault();
